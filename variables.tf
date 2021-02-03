@@ -17,6 +17,6 @@ variable "prefix" {
 }
 
 variable "image_uri_with_tag" {
-  default ="public.ecr.aws/nginx/nginx:latest"
+  default = "public.ecr.aws/nginx/nginx:latest"
   description = "from ecr pubblic container gallery https://gallery.ecr.aws"
 }
